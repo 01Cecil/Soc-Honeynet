@@ -72,6 +72,22 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
+
+## Attack  Hardening / Security Controls
+
+## Security contols
+
+- Security controls consisted of hardening the NSG by disabling public access to the virtual machines and blob storage account, I created private endpoints for the storage account and virtual machine, an additional network security group was created to protect the subnet, and a NSG rule was generated for these virtual machines to only allow traffic from my own IP address source, and private links were enabled to keep key vault safe to where only Machines in the subnet could access.
+
+
+- Compiled with NIST SP 800-53  within the compliance section of Microsoft Defender and focused on fulfilling the compliance standards associated with SC.7.*. Additional assessments for SC-7 - Boundary Protection
+
+- ![Bou](https://imgur.com/f2C271K.jpg)
+
+  Toplogy
+- ![Top](https://imgur.com/w9Cnuz3.jpg)
+
+
 ## Attack Maps Before Hardening / Security Controls
 
 -Map shows NSG Attacks
@@ -98,21 +114,6 @@ Stop Time 2023-03-16 17:04:29
 | NSG Inbound Flows        | 1127      
 
 
-
-
-## Attack  Hardening / Security Controls
-
-## Security contols
-
-- Security controls consisted of hardening the NSG by disabling public access to the virtual machines and blob storage account, I created private endpoints for the storage account and virtual machine, an additional network security group was created to protect the subnet, and a NSG rule was generated for these virtual machines to only allow traffic from my own IP address source, and private links were enabled to keep key vault safe to where only Machines in the subnet could access.
-
-
-- Compiled with NIST SP 800-53  within the compliance section of Microsoft Defender and focused on fulfilling the compliance standards associated with SC.7.*. Additional assessments for SC-7 - Boundary Protection
-
-- ![Bou](https://imgur.com/f2C271K.jpg)
-
-  Toplogy
-- ![Top](https://imgur.com/w9Cnuz3.jpg)
 
 - ## Metrics After Hardening / Security Controls
 
