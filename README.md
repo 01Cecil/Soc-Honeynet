@@ -33,11 +33,11 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 - AUTHORIZATION ATTEMPS: FAILURES/SUCCESSES
 
 - Set them to run 10 min and to lookup data everyday
-- ![10min](https://imgur.com/WhWDdhT.jpg)
+![10min](https://imgur.com/WhWDdhT.jpg)
 
 - ## 24 HOURS 
 - 74 Incidents
-  ![incidents](https://imgur.com/vgGr0V9.jpg)
+![incidents](https://imgur.com/vgGr0V9.jpg)
 
   ## Logging and Monotring/SOC
 - I assigned myself too incident 92 and began to investigate
@@ -45,8 +45,8 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 ![Incident92](https://imgur.com/4ltnqdS.jpg)
 
 - This Attacker is coming from Amsterdam also triggered 2 more alerts
-  ![Nland](https://imgur.com/mqfYsvL.jpg)
-- ![Alerts](https://imgur.com/LTzxRaj.jpg)
+![Nland](https://imgur.com/mqfYsvL.jpg)
+![Alerts](https://imgur.com/LTzxRaj.jpg)
 
 ## Log Analytics
 
@@ -82,19 +82,19 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 
 - Compiled with NIST SP 800-53  within the compliance section of Microsoft Defender and focused on fulfilling the compliance standards associated with SC.7.*. Additional assessments for SC-7 - Boundary Protection
 
-- ![Bou](https://imgur.com/f2C271K.jpg)
+![Bou](https://imgur.com/f2C271K.jpg)
 
   Toplogy
-- ![Top](https://imgur.com/w9Cnuz3.jpg)
+![Top](https://imgur.com/w9Cnuz3.jpg)
 
 
 ## Attack Maps Before Hardening / Security Controls
 
--Map shows NSG Attacks
+Map shows NSG Attacks
 ![NSG](https://imgur.com/3F7bWQa.jpg)
--Map shows Linux VM Attacks
+Map shows Linux VM Attacks
 ![Linux Syslog Auth Failures](https://imgur.com/hke4JcR.jpg)
--Map shows Windows VM Attacks
+Map shows Windows VM Attacks
 ![Windows](https://imgur.com/4bqO6mo.jpg)
 
 
