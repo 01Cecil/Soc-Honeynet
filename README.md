@@ -22,7 +22,7 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 ## Allow NSG Traffic
 ![Allow all Traffic to NSG](https://imgur.com/wMp1PF0.jpg)
 
-## Turned off Firewalls
+## Turned off Windows Firewalls
 ![Turning off Firewall settings](https://imgur.com/9wSKUL7.jpg)
 
 
