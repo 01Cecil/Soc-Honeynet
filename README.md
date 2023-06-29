@@ -110,8 +110,9 @@ Stop Time 2023-03-16 17:04:29
 - Compiled with NIST SP 800-53  within the compliance section of Microsoft Defender and focused on fulfilling the compliance standards associated with SC.7.*. Additional assessments for SC-7 - Boundary Protection
 
 - ![Bou](https://imgur.com/f2C271K.jpg)
-  
 
+  Toplogy
+- ![Top](https://imgur.com/w9Cnuz3.jpg)
 
 - ## Metrics After Hardening / Security Controls
 
