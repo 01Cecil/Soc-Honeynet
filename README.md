@@ -1,3 +1,4 @@
+
 # Building a SOC + Honeynet in Azure (Live Traffic)
 ![Cloud Honeynet / SOC](https://i.imgur.com/7OWSykQ.png)
 
@@ -13,6 +14,46 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 
 ## Architecture Before Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
+
+## Opening NSG an Firewall
+
+- Made a Windows and Linux VM. After being made i intenionally configured the firewall and NSG to allow all traffic from all ports. Also went into the VM and disabled the Microsoft Firewalls as well. This created a vulnerable enviorment that attracted Attackers across the world.
+
+## Allow NSG Traffic
+![Allow all Traffic to NSG](https://imgur.com/wMp1PF0.jpg)
+
+## Turned off Firewalls
+![Turning off Firewall settings](https://imgur.com/9wSKUL7.jpg)
+
+
+## Utilizing Microsoft Sentinel
+
+- Made KQL Queries to trigger events
+- BRUTE FORCE ATTEMPTS: FAILURES/SUCCESSES
+- AUTHORIZATION ATTEMPS: FAILURES/SUCCESSES
+
+- Set them to run 10 min and to lookup data everyday
+- ![10min](https://imgur.com/WhWDdhT.jpg)
+
+- ## 24 HOURS 
+- 74 Incidents
+  ![incidents](https://imgur.com/vgGr0V9.jpg)
+
+  ## Logging and Monotring/SOC
+- I assigned myself too incident 92 and began to investigate
+
+![Incident92](https://imgur.com/4ltnqdS.jpg)
+
+- This Attacker is coming from Amsterdam also triggered 2 more alerts
+  ![Nland](https://imgur.com/mqfYsvL.jpg)
+- ![Alerts](https://imgur.com/LTzxRaj.jpg)
+
+## Log Analytics
+
+-Further look in log analytics i queried the attackers ip address/failed logons
+
+![attack](https://imgur.com/GWrTjo6.jpg)    
+![wiw](https://imgur.com/JeH7so4.jpg)
 
 ## Architecture After Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
