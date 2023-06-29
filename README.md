@@ -35,24 +35,29 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 - Set them to run 10 min and to lookup data everyday
 ![10min](https://imgur.com/WhWDdhT.jpg)
 
-- ## 24 HOURS 
-- 74 Incidents
+- ## VM on for 24 HOURS 
+ 
+ 74 Incidents
+
 ![incidents](https://imgur.com/vgGr0V9.jpg)
 
   ## Logging and Monotring/SOC
-- I assigned myself too incident 92 and began to investigate
+ I assigned myself too incident 92 and began to investigate
 
 ![Incident92](https://imgur.com/4ltnqdS.jpg)
 
-- This Attacker is coming from Amsterdam also triggered 2 more alerts
+ This Attacker is coming from Amsterdam also triggered 2 more alerts
+
 ![Nland](https://imgur.com/mqfYsvL.jpg)
+
 ![Alerts](https://imgur.com/LTzxRaj.jpg)
 
 ## Log Analytics
 
--Further look in log analytics i queried the attackers ip address/failed logons
+ Further look in log analytics i queried the attackers ip address/failed logons
 
 ![attack](https://imgur.com/GWrTjo6.jpg)    
+
 ![wiw](https://imgur.com/JeH7so4.jpg)
 
 ## Architecture After Hardening / Security Controls
@@ -84,17 +89,23 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 
 ![Bou](https://imgur.com/f2C271K.jpg)
 
-  Toplogy
+## Toplogy
+
 ![Top](https://imgur.com/w9Cnuz3.jpg)
 
 
 ## Attack Maps Before Hardening / Security Controls
 
 Map shows NSG Attacks
+
 ![NSG](https://imgur.com/3F7bWQa.jpg)
+
 Map shows Linux VM Attacks
+
 ![Linux Syslog Auth Failures](https://imgur.com/hke4JcR.jpg)
+
 Map shows Windows VM Attacks
+
 ![Windows](https://imgur.com/4bqO6mo.jpg)
 
 
