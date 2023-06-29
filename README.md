@@ -15,7 +15,7 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 ## Architecture Before Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
 
-## Opening NSG an Firewall
+## Opening NSG and Windows Firewall
 
 - Made a Windows and Linux VM. After being made i intenionally configured the firewall and NSG to allow all traffic from all ports. Also went into the VM and disabled the Microsoft Firewalls as well. This created a vulnerable enviorment that attracted Attackers across the world.
 
