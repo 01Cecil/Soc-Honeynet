@@ -28,7 +28,7 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 
 ## Utilizing Microsoft Sentinel
 
-- Made KQL Queries to trigger events
+- Made KQL Queries to trigger aletrs/events
 - BRUTE FORCE ATTEMPTS: FAILURES/SUCCESSES
 - AUTHORIZATION ATTEMPS: FAILURES/SUCCESSES
 
