@@ -102,9 +102,18 @@ Stop Time 2023-03-16 17:04:29
 
 ## Attack  Hardening / Security Controls
 
-```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
+## Security contols
 
-## Metrics After Hardening / Security Controls
+- Security controls consisted of hardening the NSG by disabling public access to the virtual machines and blob storage account, I created private endpoints for the storage account and virtual machine, an additional network security group was created to protect the subnet, and a NSG rule was generated for these virtual machines to only allow traffic from my own IP address source, and private links were enabled to keep key vault safe to where only Machines in the subnet could access.
+
+
+- Compiled with NIST SP 800-53  within the compliance section of Microsoft Defender and focused on fulfilling the compliance standards associated with SC.7.*. Additional assessments for SC-7 - Boundary Protection
+
+- ![Bou](https://imgur.com/f2C271K.jpg)
+  
+
+
+- ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
 Start Time 2023-03-18 15:37
