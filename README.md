@@ -90,13 +90,17 @@ Stop Time 2023-03-16 17:04:29
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 19470
-| Syslog                   | 3028
+| SecurityEvent            | 19937
+| Syslog                   | 6152
 | SecurityAlert            | 10
-| SecurityIncident         | 348
+| SecurityIncident         | 230
 | AzureNetworkAnalytics_CL | 843
+| NSG Inbound Flows        | 1127      
 
-## Attack Maps Before Hardening / Security Controls
+
+
+
+## Attack  Hardening / Security Controls
 
 ```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
 
