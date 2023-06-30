@@ -136,11 +136,28 @@ Stop Time	2023-03-19 15:37
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 8778
-| Syslog                   | 25
+| SecurityEvent            | 4433
+| Syslog                   | 177
 | SecurityAlert            | 0
 | SecurityIncident         | 0
 | AzureNetworkAnalytics_CL | 0
+| NSG INBOUND FLOW         | 94
+
+
+RESULTS of HARDENING
+
+| Metric                   | Count
+| ------------------------ | -----
+| SecurityEvent            | 77%
+| Syslog                   | 97%
+| SecurityAlert            | 100%
+| SecurityIncident         | 100%
+| AzureNetworkAnalytics_CL | 100%
+| NSG INBOUND FLOW         | 91%
+
+
+
+
 
 ## Conclusion
 
