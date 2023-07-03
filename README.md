@@ -35,7 +35,7 @@ In this project, I built a mini honeynet in Azure and ingest log sources from va
 - Set them to run 10 min and to lookup data everyday
 ![10min](https://imgur.com/WhWDdhT.jpg)
 
-- ## VM on for 24 HOURS 
+- ## VULNERABLE VM on for 24 HOURS 
  
  74 Incidents
 
